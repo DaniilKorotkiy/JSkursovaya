@@ -1,3 +1,3 @@
 import moment from "moment";
 
-export default (seconds) => momemt.utc(seconds * 1000).format("mm:ss");
+export default (seconds) => moment.utc(seconds * 1000).format("mm:ss");

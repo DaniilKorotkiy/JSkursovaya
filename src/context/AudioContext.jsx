@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useState} from "react";
 import tracksList from "../assets/tracksList";
 
 const audio = new Audio();

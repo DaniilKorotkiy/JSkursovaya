@@ -19,7 +19,7 @@ const runSearch = (query) => {
   };
 
 const MainPage = () => {
-    const [tracks, setTracks] = useStste(tracksList);
+    const [tracks, setTracks] = useState(tracksList);
 
     const handleChange = (event) => {
         const foundTracks = runSearch(event.target.value);
